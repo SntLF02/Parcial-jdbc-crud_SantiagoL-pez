@@ -30,4 +30,3 @@ gradlew.bat run     # Para Windows
 # Notas:
 El proyecto usa Gradle Wrapper, por lo que no necesitas instalar Gradle manualmente.
 El sistema de logging (Log4j2) está activo y registra eventos en la ejecución.
-
