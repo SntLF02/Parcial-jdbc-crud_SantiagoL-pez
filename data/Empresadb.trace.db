@@ -1,0 +1,347 @@
+2025-05-28 15:33:31.408274-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Departamentos VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:24)
+2025-05-28 15:33:31.502167-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Departamentos VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:25)
+2025-05-28 15:33:31.571612-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Departamentos VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:26)
+2025-05-28 15:33:31.690632-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Empleados VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:30)
+2025-05-28 15:33:31.850408-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Empleados VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:31)
+2025-05-28 15:33:31.914424-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Empleados VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:32)
+2025-05-28 15:33:32.050783-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO Empleados VALUES (?, ?, ?) [21002-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:294)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:1092)
+	at org.example.dao.GenericDAOImpl.crear(GenericDAOImpl.java:22)
+	at org.example.Main2.main(Main2.java:33)
+2025-06-01 01:38:20.378383-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:53)
+2025-06-01 01:38:20.398921-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:53)
+2025-06-01 01:38:20.398921-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:53)
+2025-06-01 01:38:20.564694-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.buscarPorId(GenericDAO.java:40)
+	at org.example.dao.EmpleadoDAOImpl.buscarPorId(EmpleadoDAOImpl.java:7)
+	at org.example.Main2.main(Main2.java:58)
+2025-06-01 01:38:20.743912-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.buscarPorId(GenericDAO.java:40)
+	at org.example.dao.EmpleadoDAOImpl.buscarPorId(EmpleadoDAOImpl.java:7)
+	at org.example.Main2.main(Main2.java:65)
+2025-06-01 01:38:21.093900-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.buscarPorId(GenericDAO.java:40)
+	at org.example.dao.EmpleadoDAOImpl.buscarPorId(EmpleadoDAOImpl.java:7)
+	at org.example.Main2.main(Main2.java:72)
+2025-06-01 01:38:21.280935-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:83)
+2025-06-01 01:38:21.283935-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:83)
+2025-06-01 01:42:54.483578-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:53)
+2025-06-01 01:42:54.494579-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:53)
+2025-06-01 01:42:54.495580-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:53)
+2025-06-01 01:42:54.679642-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.buscarPorId(GenericDAO.java:40)
+	at org.example.dao.EmpleadoDAOImpl.buscarPorId(EmpleadoDAOImpl.java:7)
+	at org.example.Main2.main(Main2.java:63)
+2025-06-01 01:42:54.916491-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.buscarPorId(GenericDAO.java:40)
+	at org.example.dao.EmpleadoDAOImpl.buscarPorId(EmpleadoDAOImpl.java:7)
+	at org.example.Main2.main(Main2.java:70)
+2025-06-01 01:42:55.332574-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.buscarPorId(GenericDAO.java:40)
+	at org.example.dao.EmpleadoDAOImpl.buscarPorId(EmpleadoDAOImpl.java:7)
+	at org.example.Main2.main(Main2.java:77)
+2025-06-01 01:42:55.677734-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:92)
+2025-06-01 01:42:55.682732-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Columna "departamentoNombre" no encontrada
+Column "departamentoNombre" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:20)
+	at org.example.dao.EmpleadoDAOImpl.mapRow(EmpleadoDAOImpl.java:7)
+	at org.example.dao.GenericDAO.listarTodos(GenericDAO.java:24)
+	at org.example.Main2.main(Main2.java:92)
