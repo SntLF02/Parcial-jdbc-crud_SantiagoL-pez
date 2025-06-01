@@ -6,7 +6,7 @@ Este proyecto implementa un sistema CRUD para gestionar empleados y departamento
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
-- **Java 11 o superior** (`java -version`)
+- **Java 17 o superior** (`java -version`)
 - **Git** (para clonar el repositorio)
 - **Gradle Wrapper** (incluido en el proyecto)
 
